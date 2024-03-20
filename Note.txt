@@ -1,0 +1,3 @@
+To run  a C++, we need an Editor
+
+g++ -o index index.cpp
