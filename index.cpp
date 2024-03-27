@@ -15,11 +15,13 @@ using namespace std;
 
 int main() {
     string name;
-    cout << "Please enter your irst name: ";
+    cout << "Please enter your first name: ";
     getline(cin, name);
     string lname;
     cout << "Please enter your Last name: ";
     getline(cin, lname);
+    string fullName = name.append(" " + lname);
+    cout << "Full Name: " << fullName << endl;
     string level;
     cout << "Please enter your Level: ";
     getline(cin, level);
@@ -40,10 +42,11 @@ int main() {
 
 
 // #include <iostream>
+// #include <string>
 // using namespace std;
 
 // int main(){
-//     string fname="Pelumi", lname="Oluwa", location= "Ogbomoso", myclass="NID2";
+//     string fname="Oluwa", lname="Pelumi", location= "Ogbomoso", myclass="NID2";
 //     int cplusplus, python, javascript, java;
 //     const int age = 50;
 //     char character = 'r';
@@ -53,11 +56,18 @@ int main() {
 //     double answer = 34E2;
 //     float result = 43e3;
 
-//     cout<< python<<endl;
+//     python = 10;
 
-//     string output = "Welcome "+fname+ " "+lname+" to c++ class. This class promised to be exciting.";
-//     string output = fname.append(" "+lname);
-//     cout<< output<<endl;
-//     cout<< "The length of the string is "<<output.length()<<endl;
-//     cout<< "The length of the string is "<<output.size()<<endl;
+//     cout << "Python value: " << python << endl;
+
+//     string output = "Welcome " + fname + " " + lname + " from " + location + " " + " to the C++ class. This class promises to be exciting.";
+//     cout << output << endl;
+
+//     string fullName = fname.append(" " + lname);
+//     cout << "Full Name: " << fullName << endl;
+
+//     cout << "The length of the string is " << output.length() << endl;
+//     cout << "The length of the string is " << output.size() << endl;
+
+//     return 0;
 // }

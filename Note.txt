@@ -5,3 +5,20 @@ g++ -o index index.cpp
 Before starting any C++ code we must put "#include <iostream>"
 iostream = input output stream
 
+iostream: for input and output operations.
+string: for string manipulation.
+Defines the main() function where the program execution begins.
+
+Declares variables:
+
+name, lname, level, school, and course are string variables to store user inputs.
+fullName is a string variable to store the concatenated full name.
+Prompts the user to enter their first name and last name using getline(cin, name) and getline(cin, lname) respectively.
+
+Concatenates the first name and last name to form the full name using the append() function.
+
+Prompts the user to enter their level of education, school name, and course using getline(cin, level), getline(cin, school), and getline(cin, course) respectively.
+
+Constructs the welcome message using the collected information and prints it to the console using cout.
+
+Returns 0 to indicate successful completion of the program.
