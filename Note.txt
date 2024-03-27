@@ -2,3 +2,6 @@ To run  a C++, we need an Editor
 
 g++ -o index index.cpp
 
+Before starting any C++ code we must put "#include <iostream>"
+iostream = input output stream
+
