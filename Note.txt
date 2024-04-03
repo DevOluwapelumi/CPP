@@ -1,6 +1,7 @@
 To run  a C++, we need an Editor
 
-g++ -o index index.cpp
+Run in terminal --- g++ -o index index.cpp
+Next --- index(name of the file)
 
 Before starting any C++ code we must put "#include <iostream>"
 iostream = input output stream
@@ -22,3 +23,9 @@ Prompts the user to enter their level of education, school name, and course usin
 Constructs the welcome message using the collected information and prints it to the console using cout.
 
 Returns 0 to indicate successful completion of the program.
+
+ceil() --- round up
+round() --- round up if after decimal higher than 5 and round down if after decimal lower than 5
+floor() --- round down
+
+printf can be used instead of see out

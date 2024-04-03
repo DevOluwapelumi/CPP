@@ -9,31 +9,31 @@
 // }
 
 
-#include <iostream>
-#include <string>
-using namespace std;
+// #include <iostream>
+// #include <string>
+// using namespace std;
 
-int main() {
-    string name;
-    cout << "Please enter your first name: ";
-    getline(cin, name);
-    string lname;
-    cout << "Please enter your Last name: ";
-    getline(cin, lname);
-    string fullName = name.append(" " + lname);
-    cout << "Full Name: " << fullName << endl;
-    string level;
-    cout << "Please enter your Level: ";
-    getline(cin, level);
-    string school;
-    cout << "Please enter your School: ";
-    getline(cin, school);
-    string course;
-    cout << "Please enter your Course: ";
-    getline(cin, course);
-    cout << "Welcome " << name << " " << lname << " to " << level << " at " << school << " taking " << course << ". This class promises to be exciting." << endl;
-    return 0;
-}
+// int main() {
+//     string name;
+//     cout << "Please enter your first name: ";
+//     getline(cin, name);
+//     string lname;
+//     cout << "Please enter your Last name: ";
+//     getline(cin, lname);
+//     string fullName = name.append(" " + lname);
+//     cout << "Full Name: " << fullName << endl;
+//     string level;
+//     cout << "Please enter your Level: ";
+//     getline(cin, level);
+//     string school;
+//     cout << "Please enter your School: ";
+//     getline(cin, school);
+//     string course;
+//     cout << "Please enter your Course: ";
+//     getline(cin, course);
+//     cout << "Welcome " << name << " " << lname << " to " << level << " at " << school << " taking " << course << ". This class promises to be exciting." << endl;
+//     return 0;
+// }
 
 
 
@@ -71,3 +71,5 @@ int main() {
 
 //     return 0;
 // }
+
+
