@@ -37,28 +37,79 @@
 // }
 
 
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+// int main()
+// {
+//     string state;
+//     cout << "What is the state of the bulb?";
+//     cin >> state;
+
+//     if (state == "ON")
+//     {
+//         cout << "Bulb is ON";
+//     }
+//     else
+//     {
+//         cout << "Bulb is OFF";
+//     }
+// }
+
+
+
+
+
+
+// Write a simple application that can be used to check the weather condition if rain is going to fall (humility, temperature, cloud)
+
+
 #include <iostream>
 #include <string>
+
 using namespace std;
+
+int getHumidity()
+{
+    int humidity;
+    cout << "Enter humidity percentage: ";
+    cin >> humidity;
+    return humidity;
+}
+
+int getTemperature()
+{
+    int temperature;
+    cout << "Enter temperature in Celsius: ";
+    cin >> temperature;
+    return temperature;
+}
+
+int getCloudCover()
+{
+    int cloudCover;
+    cout << "Enter cloud cover percentage: ";
+    cin >> cloudCover;
+    return cloudCover;
+}
 
 int main()
 {
-    string state;
-    cout << "What is the state of the bulb?";
-    cin >> state;
+    int humidity = getHumidity();
+    int temperature = getTemperature();
+    int cloudCover = getCloudCover();
 
-    if (state == "ON")
+    if (humidity > 70 && temperature < 35 && cloudCover < 50)
     {
-        cout << "Bulb is ON";
+        // cout << "Looks like it might rain soon!" << endl;
+        cout << "Rain will fall soon!" << endl;
     }
     else
     {
-        cout << "Bulb is OFF";
+        // cout << "No immediate rain expected." << endl;
+        cout << "Rain is not falling." << endl;
     }
+
+    return 0;
 }
-
-
-
-
-
-
