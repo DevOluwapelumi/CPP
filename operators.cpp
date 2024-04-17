@@ -65,51 +65,51 @@
 // Write a simple application that can be used to check the weather condition if rain is going to fall (humility, temperature, cloud)
 
 
-#include <iostream>
-#include <string>
+// #include <iostream>
+// #include <string>
 
-using namespace std;
+// using namespace std;
 
-int getHumidity()
-{
-    int humidity;
-    cout << "Enter humidity percentage: ";
-    cin >> humidity;
-    return humidity;
-}
+// int getHumidity()
+// {
+//     int humidity;
+//     cout << "Enter humidity percentage: ";
+//     cin >> humidity;
+//     return humidity;
+// }
 
-int getTemperature()
-{
-    int temperature;
-    cout << "Enter temperature in Celsius: ";
-    cin >> temperature;
-    return temperature;
-}
+// int getTemperature()
+// {
+//     int temperature;
+//     cout << "Enter temperature in Celsius: ";
+//     cin >> temperature;
+//     return temperature;
+// }
 
-int getCloudCover()
-{
-    int cloudCover;
-    cout << "Enter cloud cover percentage: ";
-    cin >> cloudCover;
-    return cloudCover;
-}
+// int getCloudCover()
+// {
+//     int cloudCover;
+//     cout << "Enter cloud cover percentage: ";
+//     cin >> cloudCover;
+//     return cloudCover;
+// }
 
-int main()
-{
-    int humidity = getHumidity();
-    int temperature = getTemperature();
-    int cloudCover = getCloudCover();
+// int main()
+// {
+//     int humidity = getHumidity();
+//     int temperature = getTemperature();
+//     int cloudCover = getCloudCover();
 
-    if (humidity > 70 && temperature < 35 && cloudCover < 50)
-    {
-        // cout << "Looks like it might rain soon!" << endl;
-        cout << "Rain will fall soon!" << endl;
-    }
-    else
-    {
-        // cout << "No immediate rain expected." << endl;
-        cout << "Rain is not falling." << endl;
-    }
+//     if (humidity > 70 && temperature < 35 && cloudCover < 50)
+//     {
+//         // cout << "Looks like it might rain soon!" << endl;
+//         cout << "Rain will fall soon!" << endl;
+//     }
+//     else
+//     {
+//         // cout << "No immediate rain expected." << endl;
+//         cout << "Rain is not falling." << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
