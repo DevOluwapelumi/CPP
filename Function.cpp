@@ -27,6 +27,31 @@ double addition(int a, double b){
     cout<<myName("Victor")<<" your score is "<< res;
 }
 
+
+void login(int count=0){
+    string user = "Pelumi", pass = "1234", username, password;
+
+    printf("Enter your username");
+    cin>>username;
+    printf("Enter your password");
+    cin>>password;
+
+    if(username == user && password == pass){
+        printf("Permission granted, Please enter");
+        addition(34, 23.5);
+    }
+    else {
+        printf("Permission denied, please try again later");
+        count += 1;
+        if (count == 3){
+            return;
+        }
+        login(count);
+    }
+}
+
 int main(){
-    addition(4.56, 7.09);
+    login();
+    return 0;
+    // addition(4.56, 7.09);
 }
